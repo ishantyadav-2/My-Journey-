@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishant Yadav Portfolio</title>
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ishant Yadav</h1>
+    <p>Aspiring Software Engineer | MEXT Undergraduate Applicant</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a> |
+    <a href="#academics">Academics</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#japanese">Japanese</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Ishant Yadav from Rewari, Haryana. I completed my Class 12 under the CBSE Board in 2025 with strong grades in Physics, Chemistry, and Mathematics. I am passionate about problem-solving, coding, and learning new technologies. I am applying for the MEXT Undergraduate Scholarship to study Software Engineering in Japan and build a career in software development while experiencing Japan's advanced academic culture.</p>
+</section>
+
+<section id="academics">
+    <h2>Academic Achievements</h2>
+    <ul>
+        <li>Class 12 CBSE Board (2025): Physics - 95, Chemistry - 97, Mathematics - 92, English - 74</li>
+        <li>Prepared for NDA examination (gained discipline & resilience)</li>
+        <li>Currently preparing for JEE Main to strengthen problem-solving and technical foundation</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming: HTML, CSS, Java (self-taught)</li>
+        <li>Problem-solving & logical thinking</li>
+        <li>Portfolio building & project documentation</li>
+        <li>Japanese language basics</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Personal Website: Documents my journey after Class 12, NDA preparation, JEE preparation, and MEXT preparation. Demonstrates challenges faced and how I handled them.</li>
+        <li>Future plan: Build small apps and web tools to showcase practical software engineering skills</li>
+    </ul>
+</section>
+
+<section id="japanese">
+    <h2>Japanese Language Learning</h2>
+    <p>I am currently learning Japanese and have mastered basic phrases and a significant portion of Hiragana. This will help me integrate into Japanese university life, communicate effectively, and adapt to the local culture while building strong language skills.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: ishant.yadav@example.com</p>
+</section>
+
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+<!-- Other content -->
+
+<footer>
+    <p>&copy; 2025 Ishant Yadav | All Rights Reserved</p>
+</footer>
+
+<!-- ADD THIS JS BEFORE </body> -->
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+</body>
+</html>
+
