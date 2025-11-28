@@ -12,6 +12,3 @@ It highlights my academic achievements, software development skills, Japanese la
 ## Tech Stack
 - HTML
 - CSS
-
-## Live Demo
-[Click here to view the website](https://yourusername.github.io/IshantPortfolio/)
